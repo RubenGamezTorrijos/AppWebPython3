@@ -13,12 +13,12 @@
     <link rel="stylesheet" ref="{{ url for('static', filename='css/main.css)}}" type="text/css">
     </head>
   <body>
-<ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="/templates/inicio.html">Inicio</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Servicios</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/templates/inicio.html">Inicio</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Servicios</a>
     <ul class="dropdown-menu">
       <li><a class="dropdown-item" href="#">Python</a></li>
       <li><a class="dropdown-item" href="#">PHP</a></li>
@@ -27,14 +27,14 @@
       <li><a class="dropdown-item" href="#">Cursos (Nuevo)</a></li>
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/templates/sobre-mi.html">Sobre Mí</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Bloqueado</a>
-  </li>
-</ul>
+    <li class="nav-item">
+      <a class="nav-link" href="/templates/sobre-mi.html">Sobre Mí</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Bloqueado</a>
+    </li>
+  </ul>
     {% bloc content %}
     {endblock}
-    </body>
-  </html>
+ </body>
+</html>
